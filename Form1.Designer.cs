@@ -1,7 +1,7 @@
 ﻿
 namespace Gaym
 {
-    partial class Form1
+    partial class GameForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,16 @@ namespace Gaym
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // GameForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.Name = "GameForm";
+            this.Text = "Chmonya the Rising";
+            this.ResumeLayout(false);
         }
 
         #endregion
