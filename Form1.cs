@@ -74,11 +74,6 @@ namespace Gaym
 
 			this.WindowState = FormWindowState.Maximized;
 
-			SizeChanged += (sender, args) =>
-			{
-				var height = 30;
-			};
-
 			Controller.RunLogic(this);
 		}
     }
